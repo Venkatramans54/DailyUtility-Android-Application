@@ -1,0 +1,57 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="Wheezing"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textSize="20dp"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="8dp"
+        android:text="Wheezing is described as a whistle-like sound that occurs while breathing when the airways are constricted. It is typically heard while breathing out than inhaling but not in all cases. This sound is produced as air is driven through narrow airways." />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="8dp"
+        android:text="If an individual has trouble breathing, he/she can have rapid breathing or gasps for air. In case there is difficulty breathing and no clear instructions on what to do, a doctor should be consulted." />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="10dp"
+        android:text="Remember that mild wheezing can occur during a cold, cough or similar viral infections affecting the respiratory tract. In such cases, a doctor should be consulted at some point if the symptoms do not settle. A recurrent episode during a viral respiratory infection might indicate asthma."
+        android:textSize="20dp" />
+
+    
+
+</RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,73 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:textSize="30dp"
+        android:text="Minerals"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/minerals" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:text="Much like vitamins, minerals are also important for helping your body function properly and stay healthy, and each comes with its own specific role." />
+    
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/textView2"
+        android:text="Iron, for example, is key to blood production, phosphorus strengthens the bones and teeth, and magnesium is a crucial component of more than 300 reactions in the body." />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:text="The minerals that your body needs include: Sodium, Iron, Potassium, Calcium, Chloride, Magnesium, Phosphorus, Trace minerals." />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/textView4"
+        android:text="These can all be obtained through food, so eating a nutritious diet can prevent deficiencies and make sure you’re getting the minerals that you need." />
+
+</RelativeLayout>
+
+</ScrollView>

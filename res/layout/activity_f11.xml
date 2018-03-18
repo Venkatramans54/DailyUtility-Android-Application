@@ -1,0 +1,85 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="Snake Bite"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textSize="20dp"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="8dp"
+        android:text="Most snake bites happen when people try to kill or capture them. If you come across a snake, don't panic. Back away to a safe distance and let it move away. Snakes often want to escape when disturbed." />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="8dp"
+        android:text="A dry bite is when the snake strikes but no venom is released. Dry bites will be painful and may cause swelling and redness around the area of the snake bite. Venomous bites are when the snake bites and releases venom (poison) into a wound. Snake venom contains poisons which are designed to stun, numb, or kill other animals." />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:text="For all snake bites, provide emergency care including cardiopulmonary resuscitation (CPR) if needed. Apply a pressure immobilisation bandage and keep the person calm and as still as possible until medical help arrives. Avoid washing the bite area because any venom left on the skin can help identify the snake. DO NOT apply a tourniquet, cut the wound or attempt to suck the venom out." />
+    
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Snake bites can be painful. Occasionally some people have a severe allergic reaction to being bitten. In cases of severe allergic reaction, the whole body can react within minutes to the bite which can lead to anaphylactic shock. Anaphylactic shock is very serious and can be fatal."
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:text="First Aid: "
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/textView5"
+        android:text="A pressure immobilisation bandage is recommended for anyone bitten by a venomous snake. This involves firmly bandaging the area of the body involved, such as the arm or leg, and keeping the person calm and still until medical help arrives."
+        android:textSize="20dp" />
+
+</RelativeLayout>
+
+</ScrollView>

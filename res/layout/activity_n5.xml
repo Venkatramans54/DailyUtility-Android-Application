@@ -1,0 +1,93 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"
+        android:text="Water"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/water" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:text="The human body can survive for long periods of time without food. In fact, there have been case studies reporting on some extreme cases of people who have successfully gone without eating for 382 days under medical supervision with no negative side effects. (3) Of course, I’d never recommend such extreme fasting — I simply point this out to highlight the importance of water." />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/textView2"
+        android:text="While you may be able to go without food for quite a while, even just a few days without water can be detrimental." />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/textView3"
+        android:text="Water accounts for a pretty big portion of the body, making up somewhere between 55 percent to 75 percent of your body mass." />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:text="It plays an essential role in waste removal, digestion and temperature regulation and makes up a core component of every cell in your body." />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:text="Dehydration can lead to symptoms like dry skin, dizziness, fatigue, a rapid heartbeat and even death if left untreated." />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/textView6"
+        android:text="In addition to the things that you drink, you also take in water through the foods that you eat as well. Fruits and vegetables, in particular, tend to have a higher water content and can help keep you hydrated." />
+
+</RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,141 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="#fff" >
+
+    <Button
+        android:id="@+id/Button1"
+        android:layout_width="169dp"
+        android:layout_height="144dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:drawableTop="@drawable/todo"
+        android:background="@drawable/butttongradient"
+        android:text="To-Do List"
+        android:textSize="20sp"
+        android:textColor="#000" />
+
+    <Button
+        android:id="@+id/Button2"
+        android:layout_width="169dp"
+        android:layout_height="144dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/Button1"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/butttongradient"
+        android:drawableTop="@drawable/weather"
+        android:text="Weather Forecasting"
+        android:textSize="20sp"
+        android:textColor="#000" />
+
+    <Button
+        android:id="@+id/Button4"
+        android:layout_width="169dp"
+        android:layout_height="144dp"
+        android:layout_alignRight="@+id/Button2"
+        android:layout_alignTop="@+id/Button3"
+        android:background="@drawable/butttongradient"
+        android:drawableTop="@drawable/route"
+        android:text="Find Route"
+        android:textSize="20sp"
+        android:textColor="#000" />
+    
+    <Button
+        android:id="@+id/Button5"
+        android:layout_width="169dp"
+        android:layout_height="144dp"
+        android:layout_alignLeft="@+id/Button3"
+        android:background="@drawable/butttongradient"
+        android:layout_below="@+id/Button3"
+        android:layout_marginTop="5dp"
+        android:drawableTop="@drawable/compass"
+        android:text="Compass"
+        android:textSize="20sp"
+        android:textColor="#000"/>
+    
+    <Button
+        android:id="@+id/Button6"
+        android:layout_width="169dp"
+        android:layout_height="144dp"
+        android:background="@drawable/butttongradient"
+        android:layout_alignRight="@+id/Button4"
+        android:layout_alignTop="@+id/Button5"
+        android:drawableTop="@drawable/bmi"
+        android:text="BMI"
+        android:textColor="#000"
+        android:textSize="20sp" />
+    
+    <Button
+        android:id="@+id/Button7"
+        android:layout_width="169dp"
+        android:layout_height="144dp"
+        android:layout_alignLeft="@+id/Button5"
+        android:layout_below="@+id/Button5"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/butttongradient"
+        android:drawableTop="@drawable/firstaid"
+        android:text="Firstaid Guidelines"
+        android:textSize="20sp"
+        android:textColor="#000" />
+
+    <Button
+        android:id="@+id/Button8"
+        android:layout_width="169dp"
+        android:layout_height="144dp"
+        android:layout_alignRight="@+id/Button6"
+        android:layout_alignTop="@+id/Button7"
+        android:background="@drawable/butttongradient"
+        android:drawableTop="@drawable/helpline"
+        android:text="Emergency Helpline"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/Button3"
+        android:layout_width="169dp"
+        android:layout_height="144dp"
+        android:layout_alignLeft="@+id/Button1"
+        android:layout_below="@+id/Button1"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/butttongradient"
+        android:drawableTop="@drawable/location"
+        android:text="Location Tracker"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/Button9"
+        android:layout_width="169dp"
+        android:layout_height="144dp"
+        android:layout_alignLeft="@+id/Button7"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/Button7"
+        android:background="@drawable/butttongradient"
+        android:drawableTop="@drawable/rescue"
+        android:text="Rescue Alerts"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/Button10"
+        android:layout_width="169dp"
+        android:layout_height="144dp"
+        android:layout_alignLeft="@+id/Button8"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/butttongradient"
+        android:drawableTop="@drawable/nutrition"
+        android:text="Nutrition Chart"
+        android:textColor="#000"
+        android:textSize="20sp" />
+   
+</RelativeLayout>
+
+</ScrollView>

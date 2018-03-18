@@ -1,0 +1,16 @@
+package com.example.dailyutility.firstaid;
+
+import android.os.Bundle;
+
+import com.example.dailyutility.MainActivity;
+import com.example.dailyutility.R;
+
+public class F1 extends MainActivity {
+	
+	@Override
+	   protected void onCreate(Bundle savedInstanceState) {
+	      super.onCreate(savedInstanceState);
+	      setContentView(R.layout.activity_f1);
+	}	
+
+}

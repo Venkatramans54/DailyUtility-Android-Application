@@ -1,0 +1,103 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="Heart Attacks"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textSize="20dp"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="8dp"
+        android:text="A heart attack happens when the supply of blood to the heart is suddenly blocked, usually by a blood clot. Lots of people make a full recovery from a heart attack, but there’s a serious risk that the heart might stop beating – called a cardiac arrest. It’s vital that you treat someone having a heart attack straight away, otherwise they could die." />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="8dp"
+        android:text="People who have angina are more likely to have a heart attack. Angina happens when the arteries to the heart become narrow and the heart muscle can’t get enough blood. This can happen when someone’s doing a physical activity but is even more of a concern if it happens at rest." />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:text="Help move them into the most comfortable position. The best position is on the floor leaning against a wall with knees bent and head and shoulders supported. This should ease the pressure on their heart and stop them hurting themselves if they collapse."/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_below="@+id/textView6"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Basic First Aid: " />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_below="@+id/textView7"
+        android:textSize="20dp"
+        android:layout_marginLeft="0dp"
+        android:text="1. Help the person sit in an upright position." />
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView8"
+        android:textSize="20dp"
+        android:layout_marginLeft="5dp"
+        android:text="2. If the person is wearing tight clothing, especially around the neck, loosen it." />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:text="First Aid: "
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/textView5"
+        android:text="Give them a 300mg aspirin, if available and they're not allergic, and tell them to chew it slowly. Be aware that they may develop shock. Shock does not mean emotional shock, but is a life-threatening condition, which can be brought on by a heart attack. Keep checking their breathing, pulse and level of response. If they lose responsiveness at any point, open their airway, check their breathing, and prepare to treat someone who has become unresponsive. You may need to do CPR."
+        android:textSize="20dp" />
+
+</RelativeLayout>
+
+</ScrollView>

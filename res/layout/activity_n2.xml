@@ -1,0 +1,93 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"
+        android:text="Carbohydrates"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/carbohydrates" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginLeft="8dp"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:text="Despite being demonized as “unhealthy” or “fattening,” carbohydrates are critical to the function of your body. Carbohydrates are broken down into glucose, which is the primary source of fuel for your body and brain." />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/textView2"
+        android:text="Not only do they provide energy for the body, but they also help stabilize blood sugar levels and preserve muscle mass by preventing the breakdown of proteins for energy." />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/textView3"
+        android:text="Plus, some of the world’s healthiest foods fall into the category of carbohydrates. Fruits and vegetables, for instance, are incredibly nutrient-dense and loaded with important vitamins, minerals and antioxidants." />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:text="Even on a low-carb or ketogenic diet, you’re still taking in a few grams of carbohydrates here and there, making carbohydrates an important part of any diet." />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView5"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/textView5"
+        android:text="Complex carbohydrates take longer to break down, which can help you feel fuller for longer and keep blood sugar levels regular." />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView6"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/textView6"
+        android:text="Whole grains, fruits and vegetables are a few examples of healthy complex carbohydrates that can fuel your body and supply you with a megadose of nutrients." />
+
+</RelativeLayout>
+
+</ScrollView>

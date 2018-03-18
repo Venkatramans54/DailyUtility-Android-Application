@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dailyutility"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+    
+     <uses-permission android:name="android.permission.CAMERA" />
+     <uses-feature android:name="android.hardware.camera" />
+     <uses-permission android:name="android.permission.VIBRATE" />
+     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> 
+     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+     <uses-permission android:name="android.permission.INTERNET" />
+     <uses-permission android:name="android.permission.CALL_PHONE" />
+     <uses-permission android:name="android.permission.SEND_SMS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.dailyutility.TutorialScreen"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog.NoActionBar.MinWidth" >
+            <intent-filter>
+                <action android:name="android.intent.action.TutorialScreen" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.dailyutility.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.dailyutility.CustomList"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.dailyutility.Compass"
+            android:label="Compass" >
+        </activity>
+        <activity
+            android:name="com.example.dailyutility.Alert"
+            android:label="Compass" >
+        </activity>
+        <activity
+            android:name="com.example.dailyutility.BmiCalculator"
+            android:label="BMI Calculation" >
+        </activity>
+         <activity
+            android:name="com.example.dailyutility.Caution"
+            android:label="Caution" >
+        </activity>
+         <activity
+            android:name="com.example.dailyutility.Places"
+            android:label="Location Tracker" >
+        </activity>
+         <activity
+            android:name="com.example.dailyutility.Route"
+            android:label="Route Finder" >
+        </activity>
+        <activity
+            android:name="com.example.dailyutility.firstaid.FirstAidList"
+            android:label="FirstAid Guidelines" >
+        </activity>
+        <activity
+            android:name="com.example.dailyutility.firstaid.F1"
+            android:label="OSHA" >
+        </activity>
+        <activity
+            android:name="com.example.dailyutility.firstaid.F2"
+            android:label="Burns" >
+        </activity>
+        <activity
+            android:name="com.example.dailyutility.firstaid.F3"
+            android:label="Fractures, Sprains and Strains" >
+        </activity>
+        <activity
+            android:name="com.example.dailyutility.firstaid.F4"
+            android:label="Breathing Problems and Choking" >
+        </activity>
+        <activity
+            android:name="com.example.dailyutility.firstaid.F5"
+            android:label="Bleeding, Cuts and Scrapes" >
+        </activity>
+        <activity
+            android:name="com.example.dailyutility.firstaid.F6"
+            android:label="Non-Bleeding Wounds" >
+        </activity>
+        <activity
+            android:name="com.example.dailyutility.firstaid.F7"
+            android:label="Nosebleeding" >
+        </activity>
+        <activity
+            android:name="com.example.dailyutility.firstaid.F8"
+            android:label="Head, Neck and Spine Injury" >
+        </activity>
+        <activity
+            android:name="com.example.dailyutility.firstaid.F9"
+            android:label="Asthma" >
+        </activity>
+        <activity
+            android:name="com.example.dailyutility.firstaid.F10"
+            android:label="Wheezing" >
+        </activity>
+        <activity
+            android:name="com.example.dailyutility.firstaid.F11"
+            android:label="Snake Bites" >
+        </activity>
+        <activity
+            android:name="com.example.dailyutility.firstaid.F12"
+            android:label="Heart Attacks" >
+        </activity>
+        <activity
+            android:name="com.example.dailyutility.nutrients.NutrientList"
+            android:label="Nutrients Chart" >
+        </activity>
+        <activity
+            android:name="com.example.dailyutility.nutrients.N1"
+            android:label="Nutrients" >
+        </activity>
+        <activity
+            android:name="com.example.dailyutility.nutrients.N2"
+            android:label="Nutrients" >
+        </activity>
+        <activity
+            android:name="com.example.dailyutility.nutrients.N3"
+            android:label="Nutrients" >
+        </activity>
+        <activity
+            android:name="com.example.dailyutility.nutrients.N4"
+            android:label="Nutrients" >
+        </activity>
+        <activity
+            android:name="com.example.dailyutility.nutrients.N5"
+            android:label="Nutrients" >
+        </activity>
+        <activity
+            android:name="com.example.dailyutility.nutrients.N6"
+            android:label="Nutrients" >
+        </activity>
+        <activity
+            android:name="com.example.dailyutility.nutrients.N7"
+            android:label="Nutrients" >
+        </activity>
+        <activity
+            android:name="com.example.dailyutility.nutrients.N8"
+            android:label="Nutrients" >
+        </activity>
+        <activity
+            android:name="com.example.dailyutility.nutrients.N9"
+            android:label="Nutrients" >
+        </activity>
+        <activity
+            android:name="com.example.dailyutility.nutrients.N10"
+            android:label="Nutrients" >
+        </activity>
+        <activity
+            android:name="com.example.dailyutility.Weather"
+            android:label="Weather Forecasting" >
+        </activity>
+        <activity
+            android:name="com.example.dailyutility.MyActivity"
+            android:label="Weather Forecasting" >
+        </activity>
+        <activity
+            android:name="com.example.dailyutility.Handlexml"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.dailyutility.Feedback"
+            android:label="Feedback" >
+        </activity>
+        <activity
+            android:name="com.example.dailyutility.HelplineList"
+            android:label="Emergency Helpline" >
+        </activity>
+        <activity
+            android:name="com.example.dailyutility.HelplineAdapter"
+            android:label="Feedback" >
+        </activity>
+        
+      
+      <activity
+          android:name=".AlarmMe"
+          android:label="@string/app_name">
+         </activity>
+      
+      <activity
+      android:name=".EditAlarm"
+      android:label="Edit alarm" />
+
+    <activity
+      android:name=".AlarmNotification"
+      android:label="Alarm notification" />
+
+    <activity
+      android:name=".Preferences"
+      android:label="Preferences" />
+
+    <activity
+      android:name=".About"
+      android:label="About" />
+
+    <receiver
+      android:name=".AlarmReceiver"
+      android:process=":remote" />
+
+    <receiver android:name=".BootCompletedReceiver">
+      <intent-filter>
+        <action android:name="android.intent.action.BOOT_COMPLETED" />
+        <category android:name="android.intent.category.DEFAULT" />
+      </intent-filter>
+    </receiver>
+    
+    
+        
+    </application>
+
+</manifest>
